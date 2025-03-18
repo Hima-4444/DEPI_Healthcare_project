@@ -8,7 +8,7 @@
 ## **1. Project Proposal**  
 
 ### **Overview:**  
-The **Healthcare Predictive Analytics project** aims to enhance patient care and optimize resource management by leveraging machine learning to generate data-driven insights. This project focuses on developing predictive models that assist healthcare professionals in **identifying patient risks, detecting trends in health metrics, and making informed decisions.** By forecasting healthcare-related outcomes, the system will enable early intervention, improve treatment strategies, and enhance overall healthcare efficiency.  
+The **Healthcare Predictive Analytics project** focuses on using AI to detect lung cancer, enhancing early diagnosis and optimizing healthcare resource management. The project will develop predictive models to assist healthcare professionals in identifying patient risks, recognizing trends in health metrics, and making data-driven decisions. By integrating advanced analytics, the system will improve early disease detection, hospital resource allocation, and overall healthcare efficiency.  
 
 ### **Objectives:**  
 - **Enhance Patient Care:** Develop predictive models to identify high-risk patients early, enabling timely interventions and personalized treatment plans.
@@ -18,14 +18,18 @@ The **Healthcare Predictive Analytics project** aims to enhance patient care and
 - **Facilitate Early Disease Detection:** Leverage historical and real-time data to predict the likelihood of diseases such as diabetes, heart conditions, or readmission risks.
 
 ### **Scope:**  
-- **In-Scope:**  
-  - Data collection, preprocessing, and deep learning model implementation.  
-  - Developing an interactive Power BI dashboard.  
-  - Model deployment and monitoring.  
+- **Includes:**  
+  - AI model development for lung cancer detection.  
+  - Data collection and preprocessing of lung cancer-related datasets.
+  - Implementation of machine learning techniques for early diagnosis.
+  - Deployment of a predictive system for healthcare professionals.
+  - Performance monitoring and model optimization.  
 
-- **Out-of-Scope:**  
-  - Real-time satellite image retrieval.  
-  - Advanced geospatial analytics beyond land classification.  
+- **Excludes:**  
+  - Diagnosis of diseases other than lung cancer.
+  - Real-time patient monitoring or wearable device integration.
+  - Direct medical decision-making without human supervision.
+  - Handling of live patient data due to privacy concerns.
 
 ---
 
@@ -35,14 +39,14 @@ The **Healthcare Predictive Analytics project** aims to enhance patient care and
 
 | **Milestone** | **Description** | **Team Members** | **Duration (Days)** | **Deliverables** |  
 |--------------|---------------|----------------|-----------------|----------------|  
-| **M1: Data Collection, Exploration, and Preprocessing** | This phase involves collecting healthcare data, cleaning it, and performing exploratory analysis to prepare it for machine learning models. | Ibrahim Belal, Rahma Ashraf, Rahma Aymen | 10 | EDA Report, Interactive Visualizations, Cleaned Dataset |  
-| **M2: Data Analysis and Visualization** | This milestone focuses on extracting insights using statistical analysis and visualizations to identify key healthcare patterns and refine features. | Mohammed Ashraf, Shahd Ayman | 7 | Data Analysis Report, Visualizations of Health Trends, Feature Engineering Summary |  
-| **M3: Model Development & Optimization** | Machine learning models will be trained to predict healthcare outcomes, optimized for accuracy, and evaluated using key performance metrics. | Ibrahim Belal, Rahma Ashraf, Rahma Ayman, Shahd Ayman | 15 | Model Evaluation Report, Model Code, Final Model |  
+| **M1: Data Collection, Exploration, and Preprocessing** | This phase involves collecting healthcare data, cleaning it, and performing exploratory analysis to prepare it for machine learning models. | Ibrahim Belal, Rahma Ashraf, Rahma Aymen | 7 | EDA Report, Interactive Visualizations, Cleaned Dataset |  
+| **M2: Data Analysis and Visualization** | This milestone focuses on extracting insights using statistical analysis and visualizations to identify key healthcare patterns and refine features. | Mohammed Ashraf, Shahd Ayman | 10 | Data Analysis Report, Visualizations of Health Trends, Feature Engineering Summary |  
+| **M3: Model Development & Optimization** | AI models will be trained to detect lung cancer, optimized for accuracy, and evaluated using key performance metrics. | Ibrahim Belal, Rahma Ashraf, Rahma Ayman, Shahd Ayman | 15 | Model Evaluation Report, Model Code, Final Model |  
 | **M4: MLOps, Deployment, and Monitoring** | The model will be deployed as a web app or API for healthcare professionals. MLOps will track performance, detect drift, and automate retraining, ensuring scalability via cloud deployment. | Rahma Ashraf, Rahma Ayman | 17 | Deployed Model, MLOps Report, Monitoring Setup |  
 | **M5: Final Documentation & Presentation** | Finalize documentation and prepare the stakeholder presentation, summarizing project goals, findings, and recommendations with a live model demonstration. | Ibrahim Belal | 49 | Final Project Report, Final Presentation | 
 
 ### **Resource Allocation**  
-- **Tools & Technologies:** Python, TensorFlow, PyTorch, Pandas, NumPy, Matplotlib, Google Colab, Power BI, Flask/FastAPI, GitHub.  
+- **Tools & Technologies:** Python, Pandas, NumPy, Matplotlib, Seaborn, Google Colab, visual studio code, Power BI, Flask/FastAPI, GitHub.
 
 ---
 
@@ -62,16 +66,17 @@ The **Healthcare Predictive Analytics project** aims to enhance patient care and
 
 | **Risk** | **Impact** | **Mitigation Strategy** |  
 |---------|----------|----------------------|  
-| Low-quality satellite images | High | Perform preprocessing (filtering, noise removal) |  
-| Model underperformance | Medium | Experiment with different DNN architectures, hyperparameter tuning |  
-| Dashboard performance issues | Medium | Optimize Power BI queries and UI responsiveness |  
-| Limited computing resources | High | Use Google Colab or cloud-based GPUs |  
+| Data Quality Issues | High | Use high-quality, well-annotated lung cancer datasets and apply data cleaning techniques. |  
+| Model Bias | Medium | Ensure diverse and representative datasets to reduce bias and improve generalization. |  
+| Deployment Challenges | Medium | Test deployment in controlled environments and ensure model integration with existing systems. | 
 
 ---
 
 ## **5. Key Performance Indicators (KPIs)**  
 
-- **Model Accuracy:** Target **≥90%** classification accuracy.  
-- **Processing Time:** Model should classify images **within seconds**.  
-- **User Engagement (Dashboard):** Measure dashboard interaction and usability.  
-- **Deployment Success:** Ensure the model runs efficiently in production.  
+- **Model Accuracy:** Performance metrics such as F1-score, ROC-AUC.
+- **Prediction Response Time:** Speed of generating healthcare predictions.
+- **Data Processing Efficiency:** Time taken for data ingestion and preprocessing.
+- **User Engagement (Dashboard):** Measure dashboard interaction and usability.
+- **User Adoption Rate:** Number of healthcare professionals utilizing the system.
+- **Deployment Success:** Ensure the model runs efficiently in production.
