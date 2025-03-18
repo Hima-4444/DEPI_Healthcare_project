@@ -55,7 +55,7 @@ The **Healthcare Predictive Analytics project** focuses on using AI to detect lu
 | **Team Member** | **Role** | **Responsibilities** |  
 |----------------|---------|------------------|  
 | **Ibrahim Belal** | **Team Leader & API Developer** | - Lead the project and ensure timely completion of milestones. <br> - Develop and deploy an API using **Flask/FastAPI** to serve the model. <br> - Write the **GitHub README** and prepare the final presentation. |  
-| **Mohammed Ashraf** | **Data Analyst & Visualization Expert** | - Explore and validate the **EuroSat dataset**. <br> - Preprocess and clean Sentinel-2 images for classification. <br> - Assist in training and optimizing the deep learning model. |  
+| **Mohammed Ashraf** | **Data Analyst & Visualization Expert** |  <br>  <br> - Assist in training and optimizing the deep learning model. |  
 | **Shahd Ayman** | **EDA & Feature Engineering Specialist** | - Perform **Exploratory Data Analysis (EDA)** to understand dataset characteristics. <br>  <br>  |  
 | **Rahma Ashraf** | **Machine Learning Engineer** | - Develop a **Power BI dashboard** for visualizing classification results. <br> - Integrate the model outputs into Power BI. <br> - Assist in **deployment monitoring and performance tracking**. |  
 | **Rahma Ayman** | **MLOps & Deployment Engineer** |  <br> - Ensure smooth integration between the trained model and the dashboard. <br> - Optimize server response times and ensure efficient model inference. |  
