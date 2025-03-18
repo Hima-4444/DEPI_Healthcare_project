@@ -54,11 +54,11 @@ The **Healthcare Predictive Analytics project** focuses on using AI to detect lu
 
 | **Team Member** | **Role** | **Responsibilities** |  
 |----------------|---------|------------------|  
-| **Ibrahim Belal** | **Team Leader & Machine Learning Engineer** | - Lead the project and ensure timely completion of milestones. <br> - Select, implement, and train deep learning models (CNN). <br> - Experiment with transfer learning and hyperparameter tuning. <br> - Write the **GitHub README** and prepare the final presentation. |  
-| **Rahma Ayman** | **Data Engineer & Model Trainer** | - Explore and validate the **EuroSat dataset**. <br> - Preprocess and clean Sentinel-2 images for classification. <br> - Assist in training and optimizing the deep learning model. |  
-| **Rahma Ashraf** | **EDA & Feature Engineering Specialist** | - Perform **Exploratory Data Analysis (EDA)** to understand dataset characteristics. <br> - Identify class imbalances and preprocess data accordingly. <br> - Conduct **dimensionality reduction (PCA)** and visualize feature distributions. |  
-| **Shahd Ayman** | **Dashboard & Deployment Engineer** | - Develop a **Power BI dashboard** for visualizing classification results. <br> - Integrate the model outputs into Power BI. <br> - Assist in **deployment monitoring and performance tracking**. |  
-| **Mohammed Ashraf** | **Backend & API Developer** | - Develop and deploy an API using **Flask/FastAPI** to serve the model. <br> - Ensure smooth integration between the trained model and the dashboard. <br> - Optimize server response times and ensure efficient model inference. |  
+| **Ibrahim Belal** | **Team Leader & API Developer** | - Lead the project and ensure timely completion of milestones. <br> - Develop and deploy an API using **Flask/FastAPI** to serve the model. <br> - Write the **GitHub README** and prepare the final presentation. |  
+| **Mohammed Ashraf** | **Data Analyst & Visualization Expert** | - Explore and validate the **EuroSat dataset**. <br> - Preprocess and clean Sentinel-2 images for classification. <br> - Assist in training and optimizing the deep learning model. |  
+| **Shahd Ayman** | **EDA & Feature Engineering Specialist** | - Perform **Exploratory Data Analysis (EDA)** to understand dataset characteristics. <br>  <br>  |  
+| **Rahma Ashraf** | **Machine Learning Engineer** | - Develop a **Power BI dashboard** for visualizing classification results. <br> - Integrate the model outputs into Power BI. <br> - Assist in **deployment monitoring and performance tracking**. |  
+| **Rahma Ayman** | **MLOps & Deployment Engineer** |  <br> - Ensure smooth integration between the trained model and the dashboard. <br> - Optimize server response times and ensure efficient model inference. |  
 
 ---
 
