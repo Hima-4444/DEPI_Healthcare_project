@@ -54,8 +54,7 @@ The **Healthcare Predictive Analytics project** focuses on using AI to detect lu
 
 | **Team Member** | **Role** | **Responsibilities** |  
 |----------------|---------|------------------|  
-| **Ibrahim Belal** | **Team Leader & Data Engineer** | - Lead the project and ensure timely completion of milestones. <br> - Collect relevant healthcare data, explore the dataset for trends, and preprocess it for further
-modeling. <br> - Develop and deploy an API using **Flask/FastAPI** to serve the model. <br> - Write the **GitHub README** and prepare the final presentation. |  
+| **Ibrahim Belal** | **Team Leader & Data Engineer** | - Lead the project and ensure timely completion of milestones. <br> - Collect relevant healthcare data, explore the dataset for trends, and preprocess it for further modeling. <br> - Develop and deploy an API using **Flask/FastAPI** to serve the model. <br> - Write the **GitHub README** and prepare the final presentation. |  
 | **Shahd Ayman** | **Data Analyst & Visualization Expert** | - Perform in-depth data analysis and generate insights through visualizations to aid in healthcare decision-making. <br> - Develop interactive visualizations (heatmaps, dashboards). <br> - Assist in training and optimizing the deep learning model. |  
 | **Mohammed Ashraf** | **EDA & Feature Engineering Specialist** | - Perform **Exploratory Data Analysis (EDA)** to understand dataset characteristics. <br> - Identify key features, the distribution of health-related data points, and any potential patterns. <br> - Selecting and manipulating raw data into features. |  
 | **Rahma Ashraf** | **Machine Learning Engineer** | - Develop and optimize machine learning models to predict healthcare outcomes. <br> - Train models, evaluate performance, and fine-tune hyperparameters. <br> - Assist in **deployment monitoring and performance tracking**. |  
