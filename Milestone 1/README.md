@@ -45,7 +45,6 @@ This milestone focuses on building a solid foundation for healthcare data analys
 | `exploration_report.pdf` | Summary report of dataset structure, trends, and quality issues (EDA report). |
 | `eda_notebook.ipynb`     | Jupyter Notebook containing visualizations such as histograms, boxplots, and heatmaps. |
 | `cleaned_dataset.csv`    | Preprocessed dataset ready for analysis and machine learning.              |
-| `raw_data/`              | Contains the original unprocessed dataset used for this milestone.       |
 
 ---
 
